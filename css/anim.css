@@ -1,0 +1,28 @@
+.anim.right-header {
+    transform: translateX(-20%);
+    transition: all 2s;
+    opacity: 0;
+}
+.anim.right-header.active {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.anim.left-text {
+    transform: translateX(+100%);
+    transition: all 3s;
+    opacity: 0;
+}
+.anim.left-text.active {
+    transform: translateX(0);
+    opacity: 1;
+}
+.anim.up {
+    transform: translateY(+30%);
+    transition: all 4s;
+    opacity: 0;
+}
+.anim.up.active {
+    transform: translateY(0);
+    opacity: 1;
+}
